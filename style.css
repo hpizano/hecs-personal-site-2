@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: whitesmoke;
+    background-color: rgb(9, 9, 9);
+    font-family: verdana;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    text-align: center;
+}
+nav > a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    width: 10%;
+    padding: 1rem;
+    
+    /* justify-content: space-between; */
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+#containerForm {
+    /* border: solid white 2px ;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content {
+    padding: 3rem;
+    margin: 1rem;
+    /* width: calc(100% / 2); */
+    
+}
+
+.thanks {
+    text-align: center;
+    font-size: 50px;
+}
+@media (max-width: 786px) {
+    nav > a {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.info {
+    /* border: solid white 2px; */
+    margin: auto;
+    font-size: 20px;
+}
+.info > h3 {
+    text-align: center;
+}
+.imgex > ul {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    
+}
+
+.imgex > ul > li {
+    height: 30vh;
+    flex-grow: 1;
+    margin: auto;
+}
+
+.imgex > ul > li > img {
+    max-height: 100%;
+    min-width: none;
+    object-fit: cover;
+    vertical-align: bottom;
+    border: solid white 2px;
+    /* margin: auto; */
+}
+
+.home {
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    /* border: solid white 2px; */
+}
+
+#supreme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    /* border: solid white 2px; */
+    width: 370px;
+    margin: auto;
+}
+
+#supreme > ul > li {
+    height: 50vh;
+    flex-grow: 1;
+    
+}
+
+#supreme > ul > li > img {
+    max-height: 100%;
+    min-width: none;
+    object-fit: cover;
+    vertical-align: bottom;
+    
+}
+
+.quote {
+    text-align: center;
+    /* border: solid white 2px; */
+    font-style: italic;
+}
